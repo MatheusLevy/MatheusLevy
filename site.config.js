@@ -37,6 +37,7 @@ window.SITE = {
   actions: [
     { label: "Get in touch", href: "https://www.linkedin.com/in/matheus-levy/", primary: true },
     { label: "GitHub", href: "https://github.com/MatheusLevy" },
+    { label: "SIBGRAPI 2026 tutorial", href: "sibgrapi2026/" },
   ],
 
   /* ---- Status readout (the panel under your photo) ---------------------- */
@@ -126,9 +127,9 @@ window.SITE = {
       },
       {
         name: "Beyond Watertight Geometry: Neural Unsigned Distance Fields as a General Surface Representation",
-        blurb: "SIBGRAPI 2026 — accepted.",
+        blurb: "SIBGRAPI 2026 — accepted. Tutorial slides and CPU notebooks available.",
         tags: ["SIBGRAPI", "2026", "UDF"],
-        href: "",
+        href: "sibgrapi2026/",
       },
       {
         name: "From V-JEPA to LeWorldModel: A Survey on Accessible Video World Models",

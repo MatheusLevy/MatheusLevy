@@ -10,6 +10,7 @@ index.html            page shell (rarely needs editing)
 site.config.js        ← YOUR CONTENT: name, projects, experience, links, colors
 assets/css/style.css  styling and theme tokens
 assets/js/main.js     renders the page from the config
+sibgrapi2026/         SIBGRAPI 2026 tutorial downloads (a standalone Pokédex-style page)
 .nojekyll             tells GitHub Pages to serve the files as-is
 ```
 
