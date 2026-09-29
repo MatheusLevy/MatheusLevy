@@ -1,78 +1,88 @@
-# Personal homepage
+<h1 align="center">Hi, I'm Matheus Levy 👋</h1>
 
-A single-page, no-build personal site, ready for GitHub Pages.
-Cargo-courier HUD styling: black, white and courier blue, dark by default,
-scanlines, and your work laid out as a delivery manifest.
-All content lives in **`site.config.js`** — edit that one file and you have your own page.
+<p align="center">
+  <strong>Deep Learning Researcher · PhD student @ PUC-Rio / Tecgraf · Professional Unemployed</strong><br>
+  <sub>📍 Rio de Janeiro, Brazil</sub>
+</p>
 
-```
-index.html            page shell (rarely needs editing)
-site.config.js        ← YOUR CONTENT: name, projects, experience, links, colors
-assets/css/style.css  styling and theme tokens
-assets/js/main.js     renders the page from the config
-sibgrapi2026/         SIBGRAPI 2026 tutorial downloads (a standalone Pokédex-style page)
-.nojekyll             tells GitHub Pages to serve the files as-is
-```
+<p align="center">
+  <a href="https://matheuslevy.github.io/MatheusLevy/"><img src="https://img.shields.io/badge/Homepage-2e3192?style=for-the-badge&logo=githubpages&logoColor=white" alt="Homepage"></a>
+  <a href="https://www.linkedin.com/in/matheus-levy/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://matheuslevy.github.io/MatheusLevy/sibgrapi2026/"><img src="https://img.shields.io/badge/SIBGRAPI_2026_Tutorial-111111?style=for-the-badge&logo=jupyter&logoColor=white" alt="SIBGRAPI 2026 tutorial"></a>
+</p>
 
-## Run it locally
+> *On a long enough timeline the survival rate for everyone drops to 0.*
+> Just an unemployed Deep Learning Researcher like others.
 
-```bash
-python3 -m http.server 8000
-# then open http://localhost:8000
-```
+## 🧠 About me
 
-(Opening `index.html` directly with `file://` works too.)
+- 🎓 PhD student in Computing (Machine Learning) at **PUC-Rio**, doing research at **Tecgraf**
+- 🔬 Working on neural surface representations: **3DGS, 2DGS, SDFs, UDFs** and computer vision in general
+- 🏥 Previously: medical imaging at the **Vision Image Processing Lab (UFMA)** and software engineering at the **Applied Computing Group (NCA-UFMA)**
+- 🌐 Also a web developer: Angular, TypeScript and Leaflet by day
+- 🗣️ Portuguese and English · 🛡️ Certified: *Novo Pentest Profissional*
 
-## Make it yours
+## 📄 Recent publications
 
-1. Open `site.config.js` and edit the content — it currently holds this site's own
-   name, publications and experience, so swap in yours.
-2. For a photo, create `assets/img/` (or use any path or URL), add a square image and
-   set `avatar: "assets/img/me.jpg"`. Leave it `""` to show your initials instead.
-3. Change `accent` to any CSS color — the whole site follows it.
-   Courier blue `#2e3192` is the default; the dark theme lightens it for text.
-4. Delete any section you don't want (`skills`, `projects`, `experience`, …).
-   It disappears from the page *and* from the nav.
-5. Edit the buttons under the intro in `actions`. To offer a résumé, add the file
-   (e.g. `assets/resume.pdf`) and an entry like `{ label: "Résumé", href: "assets/resume.pdf" }`.
-6. Rename the manifest labels to taste: `projects.numberLabel` (default `CARGO NO.`;
-   this site uses `PAPER NO.`, since the section lists publications), and the `status`
-   chips on each `experience` entry (`active: true` highlights one).
-   A project or publication with an empty `href` renders as a plain, non-clickable card.
+| Year | Paper | Venue |
+| :--: | ----- | :---: |
+| 2026 | **Neural Implicit Surfaces via Nested Multiscale Residuals** | NeurIPS *(accepted)* |
+| 2026 | **Beyond Watertight Geometry: Neural Unsigned Distance Fields as a General Surface Representation** · [tutorial material](https://matheuslevy.github.io/MatheusLevy/sibgrapi2026/) | SIBGRAPI *(accepted)* |
+| 2026 | **From V-JEPA to LeWorldModel: A Survey on Accessible Video World Models** | SIBGRAPI *(accepted)* |
+| 2025 | [Neural Network Ensemble for Detecting Parasite Eggs in Microscopic Images](https://doi.org/10.1016/j.procs.2025.02.174) | Procedia CS |
+| 2025 | [DualAttentionNet: A CNN for Thoracic Disease Classification in Chest X-Rays](https://doi.org/10.1016/j.procs.2025.02.181) | Procedia CS |
+| 2023 | [A PPM-based UNet for Tumour and Kidney Segmentation in CT Scans](https://doi.org/10.1080/21681163.2023.2198047) | CMBBE: Imaging & Vis. |
+| 2022 | [Glaucoma Stage Classification Using OCT Volumes and 3D CNNs](https://doi.org/10.5753/sbcas.2022.222659) | SBCAS |
+| 2022 | [PPM-UNet: A CNN for Kidney Segmentation in CT Images](https://doi.org/10.5753/sbcas.2022.222656) | SBCAS |
+| 2022 | [Optimizing a DenseNet-Based CNN for COVID-19 Diagnosis](https://doi.org/10.5753/sbcas.2022.222666) | SBCAS |
+| 2022 | [Applying Multi-Instance Learning to Breast Cancer Diagnosis in Histopathological Images](https://doi.org/10.5753/sbcas.2022.222673) | SBCAS |
 
-The styling is a cargo-courier homage — all shapes, marks and type here are original;
-no third-party logos or game assets are used.
+## 💼 Experience
 
-## Publish on GitHub Pages
+| Period | Role | Where |
+| ------ | ---- | ----- |
+| 2025 – now | Deep Learning Researcher: 3DGS, 2DGS, SDF, UDF, computer vision | Tecgraf / PUC-Rio |
+| 2025 – now | Web Developer: Angular, TypeScript, HTML, CSS, Leaflet | Tecgraf / PUC-Rio |
+| 2024 – 2025 | Senior Software Engineer: Next.js front-end, code review, GitLab CI/CD | NCA-UFMA |
+| 2023 – 2025 | Computer Vision Researcher: HRNet for small-object detection, composed losses for multi-stage detection, multi-branch X-ray classification | VIPLab-UFMA |
+| 2022 | Spatial Data Engineer: Dash and Streamlit apps, GeoPandas, Plotly, Folium | NCA-UFMA |
+| 2021 – 2022 | Computer Vision Research Intern: 3D CNNs for glaucoma staging | VIPLab-UFMA |
 
-**Option A — personal site at `https://<user>.github.io`**
+## 🎓 Education
 
-```bash
-gh repo create <user>.github.io --public --source=. --push
-```
+- **PhD, Computing (Machine Learning)**, PUC-Rio · 2025 – now
+- **MSc, Computer Science (Machine Learning)**, UFMA · 2023 – 2025
+- **BSc, Computer Science**, UFMA · 2019 – 2023
+- **Technical Diploma, Informatics**, IFMA · 2016 – 2019
 
-**Option B — project site at `https://<user>.github.io/<repo>`**
+## 🛠️ Toolbox
 
-```bash
-git add -A && git commit -m "Add personal homepage" && git push
-```
+**Deep learning & vision**<br>
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
+![Hugging Face](https://img.shields.io/badge/Transformers-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![YOLO](https://img.shields.io/badge/YOLO-111F68?style=flat-square&logo=yolo&logoColor=white)
+![MMDetection](https://img.shields.io/badge/MMDetection-1f6feb?style=flat-square)
 
-Then: repo **Settings → Pages → Source: Deploy from a branch → `main` / `/ (root)`**.
-First build takes about a minute.
+**Data**<br>
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+![GeoPandas](https://img.shields.io/badge/GeoPandas-139C5A?style=flat-square)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=flat-square&logo=plotly&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 
-## Built in
+**Web & tooling**<br>
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
+![Leaflet](https://img.shields.io/badge/Leaflet-199900?style=flat-square&logo=leaflet&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS-663399?style=flat-square&logo=css&logoColor=white)
+![GitLab CI](https://img.shields.io/badge/GitLab_CI-FC6D26?style=flat-square&logo=gitlab&logoColor=white)
 
-- Full-bleed layout — sticky `SEC.0x` labels in the left rail, content filling the width
-- CSS scanlines and vignette (no image files)
-- Status readout under your photo with animated signal bars — set it in `status`
-- Numbered work cards (`CARGO NO. 001` by default, `PAPER NO. 001` here) with reticle corners on hover
-- Delivery log with `In transit` / `Delivered` chips per role
-- `NIGHT` / `DAY` toggle, remembered per visitor, follows your OS by default
-- Barlow Condensed for headings, Barlow for text, IBM Plex Mono for data
-- Quiet fade-in on scroll and an active-section nav
-- Fully responsive, keyboard accessible, honours `prefers-reduced-motion`
-- No build step, no dependencies, no tracking
+---
 
-## Easter egg
-
-Type the word set in `easterEgg` (default: `party`) anywhere on the page. 🎉
+<p align="center"><sub>Keep on keeping on.</sub></p>
